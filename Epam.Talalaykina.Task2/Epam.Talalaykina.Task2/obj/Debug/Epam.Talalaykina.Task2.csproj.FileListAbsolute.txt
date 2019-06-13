@@ -1,0 +1,6 @@
+/Users/elizavetatalalajkina/Desktop/Epam.Talalaykina.Task2/Epam.Talalaykina.Task2/bin/Debug/Epam.Talalaykina.Task2.exe
+/Users/elizavetatalalajkina/Desktop/Epam.Talalaykina.Task2/Epam.Talalaykina.Task2/bin/Debug/Epam.Talalaykina.Task2.pdb
+/Users/elizavetatalalajkina/Desktop/Epam.Talalaykina.Task2/Epam.Talalaykina.Task2/obj/Debug/Epam.Talalaykina.Task2.csprojResolveAssemblyReference.cache
+/Users/elizavetatalalajkina/Desktop/Epam.Talalaykina.Task2/Epam.Talalaykina.Task2/obj/Debug/Epam.Talalaykina.Task2.csproj.CoreCompileInputs.cache
+/Users/elizavetatalalajkina/Desktop/Epam.Talalaykina.Task2/Epam.Talalaykina.Task2/obj/Debug/Epam.Talalaykina.Task2.exe
+/Users/elizavetatalalajkina/Desktop/Epam.Talalaykina.Task2/Epam.Talalaykina.Task2/obj/Debug/Epam.Talalaykina.Task2.pdb
