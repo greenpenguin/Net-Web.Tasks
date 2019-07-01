@@ -1,23 +1,22 @@
-﻿namespace Epam.Talalaykina.Task00._1._1
+using System;
+using System.Collections.Generic;
+
+namespace Epam.Talalaykina.Task00._1._1
 {
     public class FunctionClass
     {
         public string StringCreation(int n)
         {
-            string resultString = "";
+            string resultString = String.Empty;
+            List<int> numbers = new List<int>();
+            
             for (int i = 1; i <= n; i++)
             {
-                if (i == n)
-                {
-                    resultString += i;
-                }
-                else
-                {
-                    resultString += i + ", ";
-                }
-                
+                numbers.Add(i);
             }
-
+            
+            resultString = String.Join(", ", numbers);
+            
             return resultString;
         }
     }
