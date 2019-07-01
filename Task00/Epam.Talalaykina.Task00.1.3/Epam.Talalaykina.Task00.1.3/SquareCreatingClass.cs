@@ -1,28 +1,30 @@
-﻿using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Epam.Talalaykina.Task00._1._3
 {
     public class SquareCreatingClass
     {
-        public List<string> SquareCreating(int n)
+        public List<StringBuilder> SquareCreating(int n)
         {
-            List<string> resultList = new List<string>();
+            List<StringBuilder> resultList = new List<StringBuilder>();
             
             for (int i = 0; i < n; i++)
             {
-                string resultString = "";
+                StringBuilder resultString = new StringBuilder(String.Empty);
                 for (int j = 0; j < n; j++)
                 {
                     if ((i == n/2) && (j == n/2))
                     {
-                        resultString += "  ";
+                        resultString.Append("  ");
                     }
                     else
                     {
-                        resultString += "* ";
+                        resultString.Append("* ");
                     }
                 }
-                resultString += "\n";
+                resultString.Append("\n");
                 resultList.Add(resultString);
             }
 
