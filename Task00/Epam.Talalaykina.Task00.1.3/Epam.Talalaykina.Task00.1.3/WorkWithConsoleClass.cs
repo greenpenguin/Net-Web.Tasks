@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace Epam.Talalaykina.Task00._1._3
 {
@@ -35,7 +36,7 @@ namespace Epam.Talalaykina.Task00._1._3
             return number;
         }
 
-        public void Output(List<string> resultList)
+        public void Output(List<StringBuilder> resultList)
         {
             foreach (var element in resultList)
             {
